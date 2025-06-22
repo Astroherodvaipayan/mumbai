@@ -1,3 +1,5 @@
+for adk code check out the @adk branch 
+
 # 🎓 AI Learning Assistant
 
 A powerful voice-enabled AI assistant that helps you learn by analyzing what's on your screen and providing contextual guidance through natural conversation.
