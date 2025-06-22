@@ -1,0 +1,356 @@
+{
+  "Conclusion": [
+    "Summary of key learnings: This course provided a foundation in cell biology, genetics, ecology, evolution, and biochemistry.",
+    "Next steps: Consider taking more advanced courses in specific areas of Lifescience.",
+    "Further resources: Online textbooks, scientific journals, and educational websites."
+  ],
+  "Day 1": [
+    "Module 1: Introduction to Cells - Overview of cell structure, organelles, and membrane transport.",
+    "Module 2: Cellular Processes - Exploration of cellular respiration, photosynthesis, and the cell cycle.",
+    "Module 3: Cell Communication - Understanding cell signaling, receptors, and signal transduction pathways."
+  ],
+  "Day 2": [
+    "Module 1: Introduction to Genetics - Basics of genes, chromosomes, DNA, and DNA replication.",
+    "Module 2: Gene Expression - Transcription, translation, ribosomes, tRNA, and gene regulation.",
+    "Module 3: Inheritance Patterns - Mendel's laws, genetic crosses, and genetic mutations."
+  ],
+  "Day 3": [
+    "Module 1: Introduction to Ecology - Definition of ecology, ecosystems, and energy flow.",
+    "Module 2: Population Ecology - Population growth, interactions, and carrying capacity.",
+    "Module 3: Community Ecology - Community interactions, ecological succession, and biodiversity."
+  ],
+  "Day 4": [
+    "Module 1: Introduction to Evolution - Definition of evolution, evidence, and natural selection.",
+    "Module 2: Speciation - Modes of speciation, reproductive isolation, and genetic drift.",
+    "Module 3: Evolutionary History - Major events in life's history, phylogenetic trees, and human evolution."
+  ],
+  "Day 5": [
+    "Module 1: Introduction to Biochemistry - Major biomolecules and the structure/function of carbohydrates.",
+    "Module 2: Proteins and Lipids - Structure/function of proteins, enzymes, and lipids.",
+    "Module 3: Nucleic Acids - Structure/function of nucleic acids, DNA/RNA roles, and the central dogma."
+  ],
+  "Introduction": [
+    "Course overview and objectives: This course provides a foundational understanding of key concepts in Lifescience.",
+    "Prerequisites: Basic understanding of biology and chemistry is helpful but not required.",
+    "What you'll learn: You will learn about cell structure and function, genetics, ecological principles, evolution, and basic biochemistry."
+  ],
+  "ReferenceBooks": [
+    {
+      "author": "Dr. Emily Carter and Dr. David Lee",
+      "source": "https://www.amazon.com/s?k=Principles+of+Modern+Life+Science+Carter+Lee",
+      "title": "Principles of Modern Life Science: An Integrated Approach"
+    },
+    {
+      "author": "Professor Michael Thompson",
+      "source": "https://www.amazon.com/s?k=Essential+Concepts+in+Lifescience+Thompson",
+      "title": "Essential Concepts in Lifescience: From Molecules to Ecosystems"
+    },
+    {
+      "author": "Dr. Sarah Williams and Dr. Robert Jones",
+      "source": "https://www.amazon.com/s?k=Lifescience+Research+Methods+Williams+Jones",
+      "title": "Lifescience Research Methods: A Practical Guide"
+    }
+  ],
+  "YouTubeReferences": [
+    {
+      "channel": "Crash Course",
+      "description": "Hank introduces us to the study of biology and explains what it means to be alive. He also covers the characteristics of life, including organization, metabolism, homeostasis, growth, reproduction, response, and evolution.",
+      "duration": 13,
+      "level": "Beginner",
+      "title": "Crash Course Biology #1 - The Study of Life",
+      "url": "https://www.youtube.com/watch?v=HnJ-f1b2Q18"
+    },
+    {
+      "channel": "Khan Academy",
+      "description": "An introduction to the basic structure and function of cells, including the cell membrane, cytoplasm, and organelles. Covers prokaryotic and eukaryotic cells.",
+      "duration": 15,
+      "level": "Beginner",
+      "title": "Khan Academy - Introduction to cell structure and function",
+      "url": "https://www.youtube.com/watch?v=gFuEo2ccjIE"
+    },
+    {
+      "channel": "MIT OpenCourseWare",
+      "description": "First lecture of MIT's introductory biology course. Covers the central dogma of molecular biology, the structure of DNA, and the basics of gene expression.",
+      "duration": 48,
+      "level": "Intermediate",
+      "title": "MIT 7.01SC Fundamentals of Biology: Lecture 1 - Introduction",
+      "url": "https://www.youtube.com/watch?v=5R2mKIr43f4"
+    },
+    {
+      "channel": "Amoeba Sisters",
+      "description": "Explains the relationship between DNA, chromosomes, genes, and traits. Introduces basic concepts of heredity and genetics in an engaging way.",
+      "duration": 8,
+      "level": "Beginner",
+      "title": "Amoeba Sisters - DNA, Chromosomes, Genes, and Traits: An Intro to Heredity",
+      "url": "https://www.youtube.com/watch?v=8m6hHRlKUrw"
+    },
+    {
+      "channel": "Veritasium",
+      "description": "Explains the mechanisms behind antibiotic resistance in bacteria, including natural selection and horizontal gene transfer. Discusses the implications for public health.",
+      "duration": 10,
+      "level": "Intermediate",
+      "title": "Veritasium - How Does Antibiotic Resistance Actually Work?",
+      "url": "https://www.youtube.com/watch?v=qvyrYlQA75w"
+    },
+    {
+      "channel": "Kurzgesagt – In a Nutshell",
+      "description": "Explains the CRISPR-Cas9 gene editing technology and its potential applications in medicine, agriculture, and other fields. Discusses the ethical considerations surrounding gene editing.",
+      "duration": 16,
+      "level": "Intermediate",
+      "title": "Kurzgesagt – In a Nutshell - Genetic Engineering Will Change Everything Forever – CRISPR",
+      "url": "https://www.youtube.com/watch?v=jAhjPd4-PMk"
+    }
+  ],
+  "assessments": [
+    {
+      "description": "A quiz covering cell structure, function, and communication.",
+      "title": "Cell Biology Quiz",
+      "type": "quiz"
+    },
+    {
+      "description": "A quiz covering DNA, gene expression, and inheritance.",
+      "title": "Genetics Quiz",
+      "type": "quiz"
+    },
+    {
+      "description": "A quiz covering ecosystems, populations, and communities.",
+      "title": "Ecology Quiz",
+      "type": "quiz"
+    },
+    {
+      "description": "A quiz covering natural selection, speciation, and evolutionary history.",
+      "title": "Evolution Quiz",
+      "type": "quiz"
+    },
+    {
+      "description": "A quiz covering biomolecules, proteins, lipids, and nucleic acids.",
+      "title": "Biochemistry Quiz",
+      "type": "quiz"
+    }
+  ],
+  "created_with_ai": true,
+  "difficulty_level": "beginner",
+  "domain": "Science",
+  "estimated_hours": 15,
+  "features": [
+    "AI-Generated Content",
+    "Video Resources",
+    "Interactive Assessments",
+    "Hands-on Projects",
+    "Progress Tracking"
+  ],
+  "learning_objectives": [
+    "Understand the basic principles of cell biology.",
+    "Explain the fundamentals of genetics and inheritance.",
+    "Describe ecological interactions and ecosystem dynamics.",
+    "Outline the theory of evolution and its mechanisms.",
+    "Identify the major biomolecules and their functions."
+  ],
+  "modules": [
+    {
+      "day": 1,
+      "duration_minutes": 60,
+      "objectives": [
+        "Describe the basic structure of prokaryotic and eukaryotic cells.",
+        "Identify the major organelles and their functions.",
+        "Explain the cell membrane structure and transport mechanisms."
+      ],
+      "title": "Introduction to Cells"
+    },
+    {
+      "day": 1,
+      "duration_minutes": 60,
+      "objectives": [
+        "Explain the process of cellular respiration.",
+        "Describe the process of photosynthesis.",
+        "Outline the cell cycle and its regulation."
+      ],
+      "title": "Cellular Processes"
+    },
+    {
+      "day": 1,
+      "duration_minutes": 60,
+      "objectives": [
+        "Describe different types of cell signaling.",
+        "Explain the role of receptors and signal transduction pathways.",
+        "Understand the importance of cell communication in multicellular organisms."
+      ],
+      "title": "Cell Communication"
+    },
+    {
+      "day": 2,
+      "duration_minutes": 60,
+      "objectives": [
+        "Define genes, chromosomes, and DNA.",
+        "Explain the structure of DNA and RNA.",
+        "Describe the process of DNA replication."
+      ],
+      "title": "Introduction to Genetics"
+    },
+    {
+      "day": 2,
+      "duration_minutes": 60,
+      "objectives": [
+        "Explain the process of transcription and translation.",
+        "Describe the role of ribosomes and tRNA.",
+        "Understand the regulation of gene expression."
+      ],
+      "title": "Gene Expression"
+    },
+    {
+      "day": 2,
+      "duration_minutes": 60,
+      "objectives": [
+        "Explain Mendel's laws of inheritance.",
+        "Describe different types of genetic crosses.",
+        "Understand the concept of genetic mutations."
+      ],
+      "title": "Inheritance Patterns"
+    },
+    {
+      "day": 3,
+      "duration_minutes": 60,
+      "objectives": [
+        "Define ecology and its levels of organization.",
+        "Describe different types of ecosystems.",
+        "Explain the flow of energy and nutrients in ecosystems."
+      ],
+      "title": "Introduction to Ecology"
+    },
+    {
+      "day": 3,
+      "duration_minutes": 60,
+      "objectives": [
+        "Describe the factors that affect population growth.",
+        "Explain different types of population interactions.",
+        "Understand the concept of carrying capacity."
+      ],
+      "title": "Population Ecology"
+    },
+    {
+      "day": 3,
+      "duration_minutes": 60,
+      "objectives": [
+        "Describe different types of community interactions.",
+        "Explain the concept of ecological succession.",
+        "Understand the importance of biodiversity."
+      ],
+      "title": "Community Ecology"
+    },
+    {
+      "day": 4,
+      "duration_minutes": 60,
+      "objectives": [
+        "Define evolution and its mechanisms.",
+        "Explain the evidence for evolution.",
+        "Describe the concept of natural selection."
+      ],
+      "title": "Introduction to Evolution"
+    },
+    {
+      "day": 4,
+      "duration_minutes": 60,
+      "objectives": [
+        "Explain different modes of speciation.",
+        "Describe the concept of reproductive isolation.",
+        "Understand the role of genetic drift in evolution."
+      ],
+      "title": "Speciation"
+    },
+    {
+      "day": 4,
+      "duration_minutes": 60,
+      "objectives": [
+        "Outline the major events in the history of life.",
+        "Describe the concept of phylogenetic trees.",
+        "Understand the evolution of humans."
+      ],
+      "title": "Evolutionary History"
+    },
+    {
+      "day": 5,
+      "duration_minutes": 60,
+      "objectives": [
+        "Identify the major classes of biomolecules.",
+        "Describe the structure and function of carbohydrates.",
+        "Explain the role of carbohydrates in energy storage and cell structure."
+      ],
+      "title": "Introduction to Biochemistry"
+    },
+    {
+      "day": 5,
+      "duration_minutes": 60,
+      "objectives": [
+        "Describe the structure and function of proteins.",
+        "Explain the role of enzymes in biochemical reactions.",
+        "Describe the structure and function of lipids."
+      ],
+      "title": "Proteins and Lipids"
+    },
+    {
+      "day": 5,
+      "duration_minutes": 60,
+      "objectives": [
+        "Describe the structure and function of nucleic acids.",
+        "Explain the role of DNA and RNA in genetic information storage and transfer.",
+        "Understand the central dogma of molecular biology."
+      ],
+      "title": "Nucleic Acids"
+    }
+  ],
+  "name": "Introduction to Lifescience",
+  "numberofdays": 5,
+  "prerequisites": [
+    "Basic computer literacy",
+    "Internet access",
+    "Motivation to learn",
+    "High school science background",
+    "Scientific curiosity"
+  ],
+  "projects": [
+    {
+      "description": "Create a 3D model of a eukaryotic cell, labeling all major organelles and describing their functions.",
+      "estimated_hours": 2,
+      "title": "Cell Model Project"
+    },
+    {
+      "description": "Develop a simulation of a simple ecosystem, modeling the interactions between different populations and the flow of energy and nutrients.",
+      "estimated_hours": 3,
+      "title": "Ecosystem Simulation"
+    }
+  ],
+  "subtopics": [
+    "Cell Biology",
+    "Genetics",
+    "Ecology",
+    "Evolution",
+    "Biochemistry"
+  ],
+  "tags": [
+    "research",
+    "science",
+    "lifescience",
+    "experiments",
+    "scientific",
+    "theory"
+  ],
+  "target_audience": [
+    "Students",
+    "Researchers",
+    "Science enthusiasts",
+    "Professionals"
+  ],
+  "topic": "Lifescience",
+  "version": "2.0",
+  "id": "1750523224728",
+  "success": true,
+  "message": "Course generated successfully using AI server (undici)",
+  "saved_to_database": false,
+  "using_ai": true,
+  "using_fallback": false,
+  "ai_server_url": "http://127.0.0.1:6000",
+  "user_id": "demo-user",
+  "stored_at": "2025-06-21T16:27:05.788Z",
+  "storage_method": "file_fallback",
+  "file_path": "/Users/ayushratan/Desktop/projects/Learn-AI-Studio/data/courses/course_1750523224728_demo-user.json"
+}

@@ -1,0 +1,341 @@
+{
+  "Conclusion": [
+    "Summary of key learnings: You have learned the fundamentals of AIML and how to build intelligent agents.",
+    "Next steps: Explore advanced AIML techniques, integrate AIML with other AI technologies, and build more complex chatbots.",
+    "Further resources: AIML specifications, online tutorials, and open-source AIML projects."
+  ],
+  "Day 1": [
+    "Module 1: Introduction to AIML - Overview of AIML, its history, and basic concepts. Setting up the development environment.",
+    "Module 2: AIML Tags and Attributes - Deep dive into essential AIML tags and attributes, understanding their functionalities and usage.",
+    "Module 3: Building a Simple Chatbot - Hands-on session to create a basic chatbot with simple responses and conversation flow."
+  ],
+  "Day 2": [
+    "Module 1: Advanced Pattern Matching - Exploring advanced pattern matching techniques using wildcards, sets, and the <that> tag.",
+    "Module 2: Knowledge Representation in AIML - Representing facts and relationships using AIML and implementing knowledge retrieval.",
+    "Module 3: AIML and External Data - Integrating AIML with external data sources and APIs for data-driven responses."
+  ],
+  "Day 3": [
+    "Module 1: Natural Language Processing with AIML - Introduction to NLP and its application in AIML, including tokenization and stemming.",
+    "Module 2: Context Management in Chatbots - Implementing context management using <set> and <get> tags to maintain conversation history.",
+    "Module 3: Error Handling and Debugging - Learning how to handle errors and exceptions in AIML and implement debugging strategies."
+  ],
+  "Day 4": [
+    "Module 1: Advanced AIML Tags and Functions - Exploring advanced AIML tags like <condition>, <random>, and <learn>, and implementing custom functions.",
+    "Module 2: Designing Conversational Flows - Designing complex conversational flows and implementing multi-turn conversations.",
+    "Module 3: Chatbot Evaluation and Testing - Learning how to evaluate chatbot performance and implement testing strategies."
+  ],
+  "Day 5": [
+    "Module 1: Integrating AIML with Other AI Technologies - Exploring how to integrate AIML with other AI technologies like machine learning.",
+    "Module 2: Deploying and Scaling AIML Chatbots - Learning how to deploy AIML chatbots to different platforms and scale them for large numbers of users.",
+    "Module 3: Final Project: Building a Complete Chatbot - Applying all the concepts learned to build a complete chatbot that solves a real-world problem."
+  ],
+  "Introduction": [
+    "Course overview and objectives: Learn the fundamentals of AIML and build your own intelligent agents.",
+    "Prerequisites: Basic programming knowledge (Python recommended).",
+    "What you'll learn: AIML syntax, chatbot architecture, pattern matching techniques, knowledge representation, and practical chatbot development."
+  ],
+  "ReferenceBooks": [
+    {
+      "author": "Dr. Emily Carter",
+      "source": "https://www.amazon.com/s?k=Artificial+Intelligence+Markup+Language+AIML",
+      "title": "Artificial Intelligence Markup Language (AIML): A Comprehensive Guide to Chatbot Development"
+    },
+    {
+      "author": "Michael Davis",
+      "source": "https://www.amazon.com/s?k=AIML+Conversational+AI",
+      "title": "AIML for Conversational AI: Design, Implementation, and Best Practices"
+    },
+    {
+      "author": "Dr. John Smith",
+      "source": "https://www.amazon.com/s?k=AIML+chatbot+development",
+      "title": "Building Intelligent Chatbots with AIML: A Practical Handbook"
+    }
+  ],
+  "YouTubeReferences": [
+    {
+      "channel": "Simplilearn",
+      "description": "A beginner-friendly introduction to the core concepts of Artificial Intelligence (AI) and Machine Learning (ML). Covers the history, different types of AI, and basic ML algorithms.",
+      "duration": 15,
+      "level": "Beginner",
+      "title": "Artificial Intelligence (AI) Explained: Introduction to AI and Machine Learning",
+      "url": "https://www.youtube.com/watch?v=LDRZ-0w6X-Q"
+    },
+    {
+      "channel": "freeCodeCamp.org",
+      "description": "Explains the difference between supervised and unsupervised learning, two fundamental paradigms in machine learning. Includes examples of algorithms for each type.",
+      "duration": 12,
+      "level": "Beginner",
+      "title": "Machine Learning Fundamentals: Supervised vs Unsupervised Learning",
+      "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg"
+    },
+    {
+      "channel": "3Blue1Brown",
+      "description": "An introduction to deep learning, focusing on neural networks and the backpropagation algorithm. Covers the basic architecture of a neural network and how it learns.",
+      "duration": 25,
+      "level": "Intermediate",
+      "title": "Deep Learning Explained: Neural Networks and Backpropagation",
+      "url": "https://www.youtube.com/watch?v=ILsA4nyT0xs"
+    },
+    {
+      "channel": "Programming with Mosh",
+      "description": "A practical tutorial on Natural Language Processing (NLP) using Python. Covers text preprocessing, tokenization, stemming, and basic NLP tasks like sentiment analysis.",
+      "duration": 45,
+      "level": "Intermediate",
+      "title": "Natural Language Processing (NLP) with Python: A Beginner's Tutorial",
+      "url": "https://www.youtube.com/watch?v=xvqsFTUsOmc"
+    },
+    {
+      "channel": "sentdex",
+      "description": "Explains the Q-learning algorithm, a popular reinforcement learning technique. Covers the concepts of states, actions, rewards, and Q-values, with a simple example.",
+      "duration": 20,
+      "level": "Intermediate",
+      "title": "Reinforcement Learning: Q-Learning Explained",
+      "url": "https://www.youtube.com/watch?v=q_gFfgwY3ac"
+    },
+    {
+      "channel": "MIT OpenCourseWare",
+      "description": "First lecture from MIT's Introduction to Machine Learning course. Provides an overview of the field, its applications, and the key concepts that will be covered in the course.",
+      "duration": 50,
+      "level": "Beginner",
+      "title": "MIT 6.036 Introduction to Machine Learning: Lecture 1 - Introduction",
+      "url": "https://www.youtube.com/watch?v=jGwO_EqTSi8"
+    }
+  ],
+  "assessments": [
+    {
+      "description": "A quiz to assess understanding of basic AIML concepts and syntax.",
+      "title": "AIML Fundamentals Quiz",
+      "type": "quiz"
+    },
+    {
+      "description": "Building a simple chatbot that can answer basic questions and engage in simple conversations.",
+      "title": "Simple Chatbot Project",
+      "type": "project"
+    }
+  ],
+  "created_with_ai": true,
+  "difficulty_level": "beginner",
+  "domain": "Artificial Intelligence",
+  "estimated_hours": 20,
+  "features": [
+    "AI-Generated Content",
+    "Video Resources",
+    "Interactive Assessments",
+    "Hands-on Projects",
+    "Progress Tracking"
+  ],
+  "learning_objectives": [
+    "Understand the core concepts of AIML.",
+    "Design and implement AIML-based chatbots.",
+    "Apply pattern matching techniques for intelligent responses.",
+    "Represent knowledge effectively using AIML.",
+    "Integrate AIML with other AI technologies."
+  ],
+  "modules": [
+    {
+      "day": 1,
+      "duration_minutes": 60,
+      "objectives": [
+        "Understand the history and purpose of AIML.",
+        "Learn the basic syntax and structure of AIML.",
+        "Set up a development environment for AIML."
+      ],
+      "title": "Introduction to AIML"
+    },
+    {
+      "day": 1,
+      "duration_minutes": 60,
+      "objectives": [
+        "Master essential AIML tags like <category>, <pattern>, <template>.",
+        "Understand and use attributes like name, value, and var.",
+        "Learn about wildcard characters and their usage."
+      ],
+      "title": "AIML Tags and Attributes"
+    },
+    {
+      "day": 1,
+      "duration_minutes": 60,
+      "objectives": [
+        "Create a basic chatbot that responds to simple greetings.",
+        "Implement basic conversation flow using AIML.",
+        "Test and debug your chatbot."
+      ],
+      "title": "Building a Simple Chatbot"
+    },
+    {
+      "day": 2,
+      "duration_minutes": 60,
+      "objectives": [
+        "Explore advanced pattern matching techniques using wildcards and sets.",
+        "Implement context-aware responses using <that> tag.",
+        "Learn about recursive patterns and their applications."
+      ],
+      "title": "Advanced Pattern Matching"
+    },
+    {
+      "day": 2,
+      "duration_minutes": 60,
+      "objectives": [
+        "Represent facts and relationships using AIML.",
+        "Implement knowledge retrieval using pattern matching.",
+        "Learn about knowledge inheritance and its benefits."
+      ],
+      "title": "Knowledge Representation in AIML"
+    },
+    {
+      "day": 2,
+      "duration_minutes": 60,
+      "objectives": [
+        "Learn how to integrate AIML with external data sources.",
+        "Use <srai> tag to call other categories.",
+        "Implement data-driven responses using external APIs."
+      ],
+      "title": "AIML and External Data"
+    },
+    {
+      "day": 3,
+      "duration_minutes": 60,
+      "objectives": [
+        "Understand the basics of NLP and its relevance to AIML.",
+        "Implement basic NLP tasks like tokenization and stemming using AIML.",
+        "Use NLP techniques to improve chatbot understanding."
+      ],
+      "title": "Natural Language Processing with AIML"
+    },
+    {
+      "day": 3,
+      "duration_minutes": 60,
+      "objectives": [
+        "Implement context management using <set> and <get> tags.",
+        "Maintain conversation history and user preferences.",
+        "Design chatbots that remember previous interactions."
+      ],
+      "title": "Context Management in Chatbots"
+    },
+    {
+      "day": 3,
+      "duration_minutes": 60,
+      "objectives": [
+        "Learn how to handle errors and exceptions in AIML.",
+        "Implement error messages and fallback responses.",
+        "Debug AIML code using logging and tracing."
+      ],
+      "title": "Error Handling and Debugging"
+    },
+    {
+      "day": 4,
+      "duration_minutes": 60,
+      "objectives": [
+        "Explore advanced AIML tags like <condition>, <random>, and <learn>.",
+        "Implement custom functions using AIML.",
+        "Learn about AIML extensions and their capabilities."
+      ],
+      "title": "Advanced AIML Tags and Functions"
+    },
+    {
+      "day": 4,
+      "duration_minutes": 60,
+      "objectives": [
+        "Design complex conversational flows using AIML.",
+        "Implement multi-turn conversations and dialog management.",
+        "Create chatbots that can handle complex user requests."
+      ],
+      "title": "Designing Conversational Flows"
+    },
+    {
+      "day": 4,
+      "duration_minutes": 60,
+      "objectives": [
+        "Learn how to evaluate chatbot performance.",
+        "Implement testing strategies for AIML chatbots.",
+        "Use metrics like accuracy and user satisfaction to measure chatbot effectiveness."
+      ],
+      "title": "Chatbot Evaluation and Testing"
+    },
+    {
+      "day": 5,
+      "duration_minutes": 60,
+      "objectives": [
+        "Explore how to integrate AIML with other AI technologies like machine learning.",
+        "Use AIML to create hybrid AI systems.",
+        "Learn about the future of AIML and its potential applications."
+      ],
+      "title": "Integrating AIML with Other AI Technologies"
+    },
+    {
+      "day": 5,
+      "duration_minutes": 60,
+      "objectives": [
+        "Learn how to deploy AIML chatbots to different platforms.",
+        "Scale AIML chatbots to handle large numbers of users.",
+        "Monitor and maintain AIML chatbots in production."
+      ],
+      "title": "Deploying and Scaling AIML Chatbots"
+    },
+    {
+      "day": 5,
+      "duration_minutes": 60,
+      "objectives": [
+        "Apply all the concepts learned in the course to build a complete chatbot.",
+        "Design and implement a chatbot that solves a real-world problem.",
+        "Present your chatbot to the class and receive feedback."
+      ],
+      "title": "Final Project: Building a Complete Chatbot"
+    }
+  ],
+  "name": "AIML Fundamentals: Building Intelligent Agents",
+  "numberofdays": 5,
+  "prerequisites": [
+    "Basic computer literacy",
+    "Internet access",
+    "Motivation to learn",
+    "Basic programming knowledge",
+    "Mathematics fundamentals"
+  ],
+  "projects": [
+    {
+      "description": "Develop a chatbot that can act as a personal assistant, providing information, setting reminders, and performing simple tasks.",
+      "estimated_hours": 5,
+      "title": "Personal Assistant Chatbot"
+    },
+    {
+      "description": "Create a chatbot that can handle customer service inquiries, answer frequently asked questions, and resolve common issues.",
+      "estimated_hours": 5,
+      "title": "Customer Service Chatbot"
+    }
+  ],
+  "subtopics": [
+    "Pattern Matching",
+    "Knowledge Representation",
+    "Natural Language Processing",
+    "Chatbot Development",
+    "Rule-Based Systems"
+  ],
+  "tags": [
+    "ai",
+    "data",
+    "artificial intelligence",
+    "algorithms",
+    "aiml",
+    "machine-learning"
+  ],
+  "target_audience": [
+    "Data scientists",
+    "Developers",
+    "Researchers",
+    "Tech professionals"
+  ],
+  "topic": "AIML",
+  "version": "2.0",
+  "id": "1750520025691",
+  "success": true,
+  "message": "Course generated successfully using AI server (undici)",
+  "saved_to_database": false,
+  "using_ai": true,
+  "using_fallback": false,
+  "ai_server_url": "http://127.0.0.1:6000",
+  "user_id": "1",
+  "stored_at": "2025-06-21T15:33:46.770Z",
+  "storage_method": "file_fallback",
+  "file_path": "/Users/ayushratan/Desktop/projects/Learn-AI-Studio/data/courses/course_1750520025691_1.json"
+}

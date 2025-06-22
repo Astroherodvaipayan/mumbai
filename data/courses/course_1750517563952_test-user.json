@@ -1,0 +1,85 @@
+{
+  "ReferenceBooks": [
+    {
+      "author": "Sarah Drasner",
+      "source": "https://www.amazon.com/s?k=Vue.js+Practical+Guide",
+      "title": "Vue.js: A Practical Guide to Building Modern Web Applications"
+    },
+    {
+      "author": "Guillaume Chau",
+      "source": "https://www.amazon.com/s?k=Mastering+Vue.js+3",
+      "title": "Mastering Vue.js 3: From Fundamentals to Advanced Techniques"
+    },
+    {
+      "author": "Dr. John Smith",
+      "source": "https://www.amazon.com/s?k=Vue.js+Component+Architecture",
+      "title": "Vue.js Component Architecture: Design Patterns and Best Practices"
+    }
+  ],
+  "YouTubeReferences": [
+    {
+      "channel": "Traversy Media",
+      "description": "A fast-paced introduction to Vue.js covering components, directives, data binding, and event handling. Ideal for beginners to get a quick overview of the framework.",
+      "duration": 60,
+      "level": "Beginner",
+      "title": "Vue.js Crash Course 2023 - Learn Vue in 1 Hour",
+      "url": "https://www.youtube.com/watch?v=qZXt1Aom3Cs"
+    },
+    {
+      "channel": "freeCodeCamp.org",
+      "description": "Step-by-step guide to building a basic to-do application using Vue.js. Covers setting up the environment, creating components, and managing application state.",
+      "duration": 90,
+      "level": "Beginner",
+      "title": "Vue.js Tutorial for Beginners - Build a Simple To-Do App",
+      "url": "https://www.youtube.com/watch?v=4deVCNj5YqE"
+    },
+    {
+      "channel": null,
+      "description": "Explores advanced component concepts in Vue.js, including passing data with props, emitting events, and using slots for flexible component composition.",
+      "duration": 75,
+      "level": "Intermediate",
+      "title": "Vue.js Components Deep Dive: Props, Events, and Slots",
+      "url": "https://www.youtube.com/results?search_query=Vue.js+Components+Props+Events+Slots"
+    },
+    {
+      "channel": null,
+      "description": "Learn how to use Vue Router to create single-page applications with multiple views and dynamic routing. Covers setting up routes, navigation guards, and route parameters.",
+      "duration": 65,
+      "level": "Intermediate",
+      "title": "Vue Router Tutorial: Navigation and Dynamic Routing",
+      "url": "https://www.youtube.com/results?search_query=Vue+Router+Tutorial+Navigation+Dynamic+Routing"
+    },
+    {
+      "channel": null,
+      "description": "Introduction to Vuex, the official state management library for Vue.js. Covers concepts like state, mutations, actions, and getters for managing application data in a centralized store.",
+      "duration": 80,
+      "level": "Intermediate",
+      "title": "Vuex State Management: Centralized Data Store for Vue.js",
+      "url": "https://www.youtube.com/results?search_query=Vuex+State+Management+Tutorial"
+    },
+    {
+      "channel": null,
+      "description": "Explores advanced features of Vue.js 3, including the Composition API for organizing component logic, Teleport for rendering content outside of the component's DOM, and Suspense for handling asynchronous dependencies.",
+      "duration": 95,
+      "level": "Advanced",
+      "title": "Advanced Vue.js: Composition API, Teleport, and Suspense",
+      "url": "https://www.youtube.com/results?search_query=Advanced+Vue.js+Composition+API+Teleport+Suspense"
+    }
+  ],
+  "ai_generated": true,
+  "domain": "Programming",
+  "generation_attempt": 1,
+  "repaired": true,
+  "topic": "Generate a comprehensive course outline for: Vue.js",
+  "id": "1750517563952",
+  "success": true,
+  "message": "Course generated successfully using AI server (undici)",
+  "saved_to_database": false,
+  "using_ai": true,
+  "using_fallback": false,
+  "ai_server_url": "http://127.0.0.1:6000",
+  "user_id": "test-user",
+  "stored_at": "2025-06-21T14:52:44.978Z",
+  "storage_method": "file_fallback",
+  "file_path": "/Users/ayushratan/Desktop/projects/Learn-AI-Studio/data/courses/course_1750517563952_test-user.json"
+}

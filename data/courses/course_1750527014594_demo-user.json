@@ -1,0 +1,128 @@
+{
+  "Assessment": [
+    "Include assessments to test understanding, such as single-choice or multiple-choice questions on Servlets, JSP, Spring MVC, and REST APIs."
+  ],
+  "Conclusion": [
+    "Summarize key learnings and practical applications of Java web development, including building dynamic web applications and RESTful services."
+  ],
+  "CourseStructureInfluence": "The course structure should comprehensively cover all necessary concepts and act as a standalone learning resource.",
+  "Day 1": [
+    "Day 1 - Module 1: Introduction to Web Development with Java",
+    "Day 1 - Module 2: Setting up the Development Environment (JDK, IDE, Tomcat)",
+    "Day 1 - Module 3: Java Servlets - Basics and Architecture"
+  ],
+  "Day 2": [
+    "Day 2 - Module 1: Servlet Lifecycle and Configuration",
+    "Day 2 - Module 2: Handling HTTP Requests and Responses in Servlets",
+    "Day 2 - Module 3: Session Management and Cookies in Servlets"
+  ],
+  "Day 3": [
+    "Day 3 - Module 1: Introduction to JavaServer Pages (JSP)",
+    "Day 3 - Module 2: JSP Syntax, Directives, and Scripting Elements",
+    "Day 3 - Module 3: Using JavaBeans in JSP"
+  ],
+  "Day 4": [
+    "Day 4 - Module 1: Introduction to Spring MVC Framework",
+    "Day 4 - Module 2: Setting up a Spring MVC Project",
+    "Day 4 - Module 3: Controllers, Views, and Model in Spring MVC"
+  ],
+  "Day 5": [
+    "Day 5 - Module 1: Building RESTful APIs with Spring MVC",
+    "Day 5 - Module 2: Database Integration with JDBC and Spring Data",
+    "Day 5 - Module 3: Testing and Deployment of Java Web Applications"
+  ],
+  "Introduction": [
+    "Introduce the course and its objectives, covering Java web development fundamentals and technologies."
+  ],
+  "ReferenceBooks": [
+    {
+      "author": "Dr. Emily Carter",
+      "source": "https://www.amazon.com/s?k=Java+Web+Development+Enterprise+Applications",
+      "title": "Java Web Development: A Comprehensive Guide to Building Enterprise Applications"
+    },
+    {
+      "author": "John Doe",
+      "source": "https://www.amazon.com/s?k=Spring+MVC+RESTful+Web+Services+Java",
+      "title": "Mastering Spring MVC and RESTful Web Services with Java"
+    },
+    {
+      "author": "Jane Smith",
+      "source": "https://www.amazon.com/s?k=Full-Stack+Web+Development+Java",
+      "title": "Full-Stack Web Development with Java: From Front-End to Back-End"
+    }
+  ],
+  "YouTubeReferences": [
+    {
+      "channel": "freeCodeCamp",
+      "description": "A fast-paced introduction to building web applications using Java, covering servlets, JSPs, and basic web architecture.",
+      "duration": 60,
+      "level": "Beginner",
+      "title": "Java Web Development Crash Course",
+      "url": "https://www.youtube.com/results?search_query=Java+Web+Development+Crash+Course"
+    },
+    {
+      "channel": "Programming with Mosh",
+      "description": "Learn the fundamentals of Spring Boot, a popular framework for building Java-based web applications, including auto-configuration and dependency injection.",
+      "duration": 90,
+      "level": "Beginner",
+      "title": "Spring Boot Tutorial for Beginners",
+      "url": "https://www.youtube.com/results?search_query=Spring+Boot+Tutorial+for+Beginners"
+    },
+    {
+      "channel": null,
+      "description": "Explore how to design and implement RESTful APIs using Java and the Spring framework, covering best practices and common design patterns.",
+      "duration": 75,
+      "level": "Intermediate",
+      "title": "RESTful API Design with Java and Spring",
+      "url": "https://www.youtube.com/results?search_query=RESTful+API+Design+Java+Spring"
+    },
+    {
+      "channel": null,
+      "description": "An in-depth look at Java Servlets and JavaServer Pages (JSPs) for creating dynamic web content, including request handling and session management.",
+      "duration": 120,
+      "level": "Intermediate",
+      "title": "Java Servlets and JSPs: Building Dynamic Web Pages",
+      "url": "https://www.youtube.com/results?search_query=Java+Servlets+JSPs+tutorial"
+    },
+    {
+      "channel": null,
+      "description": "Covers advanced security concepts in Java web development, including authentication, authorization, and protection against common web vulnerabilities.",
+      "duration": 90,
+      "level": "Advanced",
+      "title": "Advanced Java Web Security: Authentication and Authorization",
+      "url": "https://www.youtube.com/results?search_query=Advanced+Java+Web+Security+Authentication+Authorization"
+    },
+    {
+      "channel": null,
+      "description": "Learn how to build microservices-based applications using Spring Cloud, covering service discovery, configuration management, and distributed tracing.",
+      "duration": 150,
+      "level": "Advanced",
+      "title": "Microservices Architecture with Spring Cloud",
+      "url": "https://www.youtube.com/results?search_query=Microservices+Architecture+Spring+Cloud+tutorial"
+    }
+  ],
+  "ai_generated": true,
+  "domain": "Programming",
+  "generation_attempt": 1,
+  "name": "Java Web Development",
+  "numberofdays": 5,
+  "subtopics": [
+    "Servlets",
+    "JSP",
+    "Spring MVC",
+    "REST APIs",
+    "Database Integration"
+  ],
+  "topic": "Generate a comprehensive course outline for: web dev with java",
+  "id": "1750527014594",
+  "success": true,
+  "message": "Course generated successfully using AI server (undici)",
+  "saved_to_database": false,
+  "using_ai": true,
+  "using_fallback": false,
+  "ai_server_url": "http://127.0.0.1:6000",
+  "user_id": "demo-user",
+  "stored_at": "2025-06-21T17:30:15.097Z",
+  "storage_method": "file_fallback",
+  "file_path": "D:\\Studentfolio\\data\\courses\\course_1750527014594_demo-user.json"
+}

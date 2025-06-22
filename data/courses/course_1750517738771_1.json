@@ -1,0 +1,341 @@
+{
+  "Conclusion": [
+    "Summary of key learnings",
+    "Next steps: Further education, practice trading",
+    "Further resources: Books, websites, financial advisors"
+  ],
+  "Day 1": [
+    "Module 1: Introduction to the Stock Market - Overview of the stock market, its purpose, and key players.",
+    "Module 2: Understanding Stocks - Types of stocks, market capitalization, stock splits, and dividends.",
+    "Module 3: Stock Exchanges and Market Indices - Major stock exchanges and the purpose of market indices."
+  ],
+  "Day 2": [
+    "Module 1: Fundamental Analysis: Part 1 - Introduction to fundamental analysis and financial statements.",
+    "Module 2: Fundamental Analysis: Part 2 - Analyzing key financial ratios and interpreting financial statement data.",
+    "Module 3: Economic Indicators and the Stock Market - Relationship between economic indicators and the stock market."
+  ],
+  "Day 3": [
+    "Module 1: Technical Analysis: Part 1 - Introduction to technical analysis, chart types, trends, and support/resistance levels.",
+    "Module 2: Technical Analysis: Part 2 - Chart patterns and technical indicators.",
+    "Module 3: Introduction to Bonds - Definition, types, yields, and interest rates of bonds."
+  ],
+  "Day 4": [
+    "Module 1: Mutual Funds and ETFs - Definition, advantages, disadvantages, and types of mutual funds and ETFs.",
+    "Module 2: Risk Management - Definition, types, risk tolerance, diversification, and asset allocation.",
+    "Module 3: Building a Basic Investment Portfolio - Importance of asset allocation and building a diversified portfolio."
+  ],
+  "Day 5": [
+    "Module 1: Online Brokerage Platforms - Popular platforms, account opening, and placing trades.",
+    "Module 2: Trading Strategies - Different trading strategies, stop-loss orders, limit orders, and trading plans.",
+    "Module 3: Stock Market Ethics and Regulations - Insider trading, market manipulation, and the role of regulatory bodies."
+  ],
+  "Introduction": [
+    "Course overview and objectives",
+    "Prerequisites (None)",
+    "What you'll learn: Stock market basics, investment strategies, risk management"
+  ],
+  "ReferenceBooks": [
+    {
+      "author": "Benjamin Graham & David Dodd (Revised by Dr. Emily Carter)",
+      "source": "https://www.amazon.com/s?k=The+Intelligent+Investor+Benjamin+Graham",
+      "title": "The Intelligent Investor's Guide to Value Investing: A Comprehensive Handbook for Long-Term Wealth Creation"
+    },
+    {
+      "author": "Dr. Michael Thompson, CFA",
+      "source": "https://www.amazon.com/s?k=Understanding+Financial+Statements+investors",
+      "title": "Understanding Financial Statements: A Practical Guide for Investors and Analysts"
+    },
+    {
+      "author": "John J. Murphy",
+      "source": "https://www.amazon.com/s?k=Mastering+Technical+Analysis+John+Murphy",
+      "title": "Mastering Technical Analysis: Tools and Strategies for Profitable Trading"
+    }
+  ],
+  "YouTubeReferences": [
+    {
+      "channel": null,
+      "description": "This video explains the fundamental concepts of the stock market, including what stocks and bonds are, how they work, and basic investment strategies for beginners. It covers market capitalization, dividends, and risk assessment.",
+      "duration": 15,
+      "level": "Beginner",
+      "title": "Stock Market Basics: Understanding Stocks, Bonds, and Investing",
+      "url": "https://www.youtube.com/results?search_query=Stock+Market+Basics+Stocks+Bonds+Investing"
+    },
+    {
+      "channel": "Crash Course",
+      "description": "From Crash Course Economics, this episode covers the basics of stocks, bonds, and other investment vehicles. It explains how these financial instruments are used to raise capital and generate returns, and discusses the risks and rewards associated with each.",
+      "duration": 13,
+      "level": "Beginner",
+      "title": "Crash Course Economics #13: Stocks, Bonds, and Investing",
+      "url": "https://www.youtube.com/watch?v=WIKEQj3gY0I"
+    },
+    {
+      "channel": "Khan Academy",
+      "description": "A series of videos from Khan Academy covering the basics of the stock market, including how stocks are traded, the role of brokers, and the different types of market participants. It also touches on market indices and basic financial statements.",
+      "duration": 25,
+      "level": "Beginner",
+      "title": "Khan Academy: Introduction to the Stock Market",
+      "url": "https://www.youtube.com/results?search_query=Khan+Academy+Introduction+to+the+Stock+Market"
+    },
+    {
+      "channel": null,
+      "description": "This video explains how to read and interpret the three main financial statements: the income statement, the balance sheet, and the cash flow statement. It shows how these statements can be used to assess a company's financial health and performance.",
+      "duration": 20,
+      "level": "Intermediate",
+      "title": "Understanding Financial Statements: Income Statement, Balance Sheet, Cash Flow",
+      "url": "https://www.youtube.com/results?search_query=Understanding+Financial+Statements+Income+Statement+Balance+Sheet+Cash+Flow"
+    },
+    {
+      "channel": null,
+      "description": "An introduction to technical analysis, covering common chart patterns (e.g., head and shoulders, double top), indicators (e.g., moving averages, RSI), and trading strategies based on these patterns. It emphasizes the importance of risk management.",
+      "duration": 30,
+      "level": "Intermediate",
+      "title": "Technical Analysis: Chart Patterns and Trading Strategies",
+      "url": "https://www.youtube.com/results?search_query=Technical+Analysis+Chart+Patterns+Trading+Strategies"
+    },
+    {
+      "channel": null,
+      "description": "This video demonstrates how to build a basic algorithmic trading bot using Python and a stock trading API. It covers data retrieval, strategy implementation, and backtesting. Requires some programming knowledge.",
+      "duration": 45,
+      "level": "Advanced",
+      "title": "Algorithmic Trading: Building a Simple Stock Trading Bot in Python",
+      "url": "https://www.youtube.com/results?search_query=Algorithmic+Trading+Python+Stock+Trading+Bot"
+    }
+  ],
+  "assessments": [
+    {
+      "description": "A quiz to assess understanding of basic stock market concepts.",
+      "title": "Stock Market Basics Quiz",
+      "type": "quiz"
+    },
+    {
+      "description": "Analyze a publicly traded company using fundamental and technical analysis.",
+      "title": "Stock Analysis Project",
+      "type": "project"
+    }
+  ],
+  "created_with_ai": true,
+  "difficulty_level": "beginner",
+  "domain": "Business",
+  "estimated_hours": 20,
+  "features": [
+    "AI-Generated Content",
+    "Video Resources",
+    "Interactive Assessments",
+    "Hands-on Projects",
+    "Progress Tracking"
+  ],
+  "learning_objectives": [
+    "Understand the basics of the stock market",
+    "Learn how to analyze stocks",
+    "Develop a basic investment strategy",
+    "Understand risk management techniques",
+    "Be able to navigate online brokerage platforms"
+  ],
+  "modules": [
+    {
+      "day": 1,
+      "duration_minutes": 60,
+      "objectives": [
+        "Define the stock market and its purpose",
+        "Identify key players in the stock market",
+        "Understand different types of securities"
+      ],
+      "title": "Introduction to the Stock Market"
+    },
+    {
+      "day": 1,
+      "duration_minutes": 60,
+      "objectives": [
+        "Define common stock and preferred stock",
+        "Explain the concept of market capitalization",
+        "Understand stock splits and dividends"
+      ],
+      "title": "Understanding Stocks"
+    },
+    {
+      "day": 1,
+      "duration_minutes": 60,
+      "objectives": [
+        "Identify major stock exchanges (NYSE, NASDAQ)",
+        "Explain the purpose of market indices (S&P 500, Dow Jones)",
+        "Understand how indices are calculated"
+      ],
+      "title": "Stock Exchanges and Market Indices"
+    },
+    {
+      "day": 2,
+      "duration_minutes": 60,
+      "objectives": [
+        "Define fundamental analysis",
+        "Understand financial statements (balance sheet, income statement, cash flow statement)",
+        "Learn how to access financial statements"
+      ],
+      "title": "Fundamental Analysis: Part 1"
+    },
+    {
+      "day": 2,
+      "duration_minutes": 60,
+      "objectives": [
+        "Analyze key financial ratios (P/E ratio, debt-to-equity ratio)",
+        "Understand profitability ratios (Gross Profit Margin, Net Profit Margin)",
+        "Interpret financial statement data"
+      ],
+      "title": "Fundamental Analysis: Part 2"
+    },
+    {
+      "day": 2,
+      "duration_minutes": 60,
+      "objectives": [
+        "Identify key economic indicators (GDP, inflation, unemployment)",
+        "Understand the relationship between economic indicators and the stock market",
+        "Learn how to use economic data in investment decisions"
+      ],
+      "title": "Economic Indicators and the Stock Market"
+    },
+    {
+      "day": 3,
+      "duration_minutes": 60,
+      "objectives": [
+        "Define technical analysis",
+        "Understand different types of charts (line, bar, candlestick)",
+        "Learn about trends and support/resistance levels"
+      ],
+      "title": "Technical Analysis: Part 1"
+    },
+    {
+      "day": 3,
+      "duration_minutes": 60,
+      "objectives": [
+        "Identify common chart patterns (head and shoulders, double top/bottom)",
+        "Understand technical indicators (moving averages, RSI, MACD)",
+        "Learn how to use technical indicators to identify trading opportunities"
+      ],
+      "title": "Technical Analysis: Part 2"
+    },
+    {
+      "day": 3,
+      "duration_minutes": 60,
+      "objectives": [
+        "Define bonds and their characteristics",
+        "Understand different types of bonds (government, corporate, municipal)",
+        "Learn about bond yields and interest rates"
+      ],
+      "title": "Introduction to Bonds"
+    },
+    {
+      "day": 4,
+      "duration_minutes": 60,
+      "objectives": [
+        "Define mutual funds and ETFs",
+        "Understand the advantages and disadvantages of mutual funds and ETFs",
+        "Learn about different types of mutual funds and ETFs (index funds, sector funds)"
+      ],
+      "title": "Mutual Funds and ETFs"
+    },
+    {
+      "day": 4,
+      "duration_minutes": 60,
+      "objectives": [
+        "Define risk and its different types (market risk, credit risk, liquidity risk)",
+        "Understand risk tolerance and how to assess it",
+        "Learn about diversification and asset allocation"
+      ],
+      "title": "Risk Management"
+    },
+    {
+      "day": 4,
+      "duration_minutes": 60,
+      "objectives": [
+        "Understand the importance of asset allocation",
+        "Learn how to build a diversified portfolio",
+        "Consider factors like age, risk tolerance, and investment goals"
+      ],
+      "title": "Building a Basic Investment Portfolio"
+    },
+    {
+      "day": 5,
+      "duration_minutes": 60,
+      "objectives": [
+        "Identify popular online brokerage platforms",
+        "Understand how to open an account",
+        "Learn how to place trades (buy/sell orders)"
+      ],
+      "title": "Online Brokerage Platforms"
+    },
+    {
+      "day": 5,
+      "duration_minutes": 60,
+      "objectives": [
+        "Understand different trading strategies (day trading, swing trading, long-term investing)",
+        "Learn about stop-loss orders and limit orders",
+        "Understand the importance of having a trading plan"
+      ],
+      "title": "Trading Strategies"
+    },
+    {
+      "day": 5,
+      "duration_minutes": 60,
+      "objectives": [
+        "Understand insider trading and its consequences",
+        "Learn about market manipulation",
+        "Understand the role of regulatory bodies (SEC)"
+      ],
+      "title": "Stock Market Ethics and Regulations"
+    }
+  ],
+  "name": "Stock Market Fundamentals",
+  "numberofdays": 5,
+  "prerequisites": [
+    "Basic computer literacy",
+    "Internet access",
+    "Motivation to learn",
+    "Basic business concepts",
+    "Communication skills"
+  ],
+  "projects": [
+    {
+      "description": "Create a diversified investment portfolio based on a given risk profile and investment goals.  Justify your asset allocation choices. Track the portfolio's performance for one month (hypothetically).",
+      "estimated_hours": 3,
+      "title": "Build a Hypothetical Portfolio"
+    },
+    {
+      "description": "Choose a publicly traded company and analyze its financial statements (balance sheet, income statement, cash flow statement) for the past three years.  Calculate key financial ratios and provide an investment recommendation based on your analysis.",
+      "estimated_hours": 4,
+      "title": "Analyze a Company's Financials"
+    }
+  ],
+  "subtopics": [
+    "Equities",
+    "Bonds",
+    "Mutual Funds",
+    "ETFs",
+    "Trading Strategies"
+  ],
+  "tags": [
+    "strategy",
+    "management",
+    "leadership",
+    "business",
+    "entrepreneurship",
+    "stock market"
+  ],
+  "target_audience": [
+    "Entrepreneurs",
+    "Managers",
+    "Business students",
+    "Professionals"
+  ],
+  "topic": "Stock market",
+  "version": "2.0",
+  "id": "1750517738771",
+  "success": true,
+  "message": "Course generated successfully using AI server (undici)",
+  "saved_to_database": false,
+  "using_ai": true,
+  "using_fallback": false,
+  "ai_server_url": "http://127.0.0.1:6000",
+  "user_id": "1",
+  "stored_at": "2025-06-21T14:55:39.399Z",
+  "storage_method": "file_fallback",
+  "file_path": "/Users/ayushratan/Desktop/projects/Learn-AI-Studio/data/courses/course_1750517738771_1.json"
+}

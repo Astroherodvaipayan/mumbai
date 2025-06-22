@@ -1,0 +1,11 @@
+flask>=2.3.3
+flask-cors>=4.0.0
+groq>=0.4.1
+sarvamai>=1.0.0
+pyaudio>=0.2.11
+webrtcvad>=2.0.10
+numpy>=1.24.3
+# pydub>=0.25.1  # Removed due to Python 3.13 compatibility issues with audioop module
+pyautogui>=0.9.54
+python-dotenv>=1.0.0
+requests>=2.31.0

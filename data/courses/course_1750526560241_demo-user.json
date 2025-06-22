@@ -1,0 +1,361 @@
+{
+  "Conclusion": [
+    "Summary of key learnings: You have learned the fundamentals of web development with Python using Flask and Django.",
+    "Next steps: Explore advanced topics such as testing, security, and performance optimization.",
+    "Further resources: Refer to the official Flask and Django documentation, online tutorials, and community forums."
+  ],
+  "Day 1": [
+    "Module 1: Introduction to Web Development & Python - Overview of web development concepts, setting up a Python environment, and understanding HTTP.",
+    "Module 2: HTML Fundamentals - Learning basic HTML tags, creating simple pages, and understanding forms.",
+    "Module 3: CSS Fundamentals - Introduction to CSS styling, applying CSS to HTML, and understanding selectors and properties."
+  ],
+  "Day 2": [
+    "Module 1: Introduction to Flask - Understanding the Flask framework, creating a simple application, and learning about routes and views.",
+    "Module 2: Flask Templates and Forms - Using Jinja2 templates, creating and handling HTML forms, and learning about form validation.",
+    "Module 3: Flask and Databases - Connecting to a database, performing CRUD operations, and using SQLAlchemy ORM."
+  ],
+  "Day 3": [
+    "Module 1: Introduction to Django - Understanding the Django framework, creating a project and app, and learning about models, views, and templates.",
+    "Module 2: Django Models and Migrations - Defining models, creating and applying migrations, and understanding Django's ORM.",
+    "Module 3: Django Views and Templates - Creating views, using Django's template engine, and passing data from views to templates."
+  ],
+  "Day 4": [
+    "Module 1: Django Forms - Creating and using Django forms, handling form submissions, and implementing form validation.",
+    "Module 2: Django Admin Interface - Understanding the admin interface, customizing it, and using it to manage data.",
+    "Module 3: REST APIs with Flask - Understanding REST API principles, creating APIs using Flask, and using Flask-RESTful."
+  ],
+  "Day 5": [
+    "Module 1: REST APIs with Django REST Framework - Understanding Django REST Framework, creating APIs, and using serializers and viewsets.",
+    "Module 2: Authentication and Authorization - Implementing user authentication and authorization in Flask and Django, securing web applications.",
+    "Module 3: Deployment - Deploying Flask and Django applications to a cloud platform, configuring a web server, and understanding best practices."
+  ],
+  "Introduction": [
+    "Course overview and objectives: Learn to build web applications using Python. This course covers fundamental web development concepts and frameworks.",
+    "Prerequisites: Basic Python knowledge is recommended. Familiarity with command line is helpful.",
+    "What you'll learn: You will learn to build dynamic web applications using Flask and Django, interact with databases, and create REST APIs."
+  ],
+  "ReferenceBooks": [
+    {
+      "author": "Dr. Anya Sharma",
+      "source": "https://www.amazon.com/s?k=Python+Web+Development+Frameworks",
+      "title": "Python Web Development: A Comprehensive Guide with Frameworks"
+    },
+    {
+      "author": "Michael K. Johnson",
+      "source": "https://www.amazon.com/s?k=Django+Flask+Python+Web+Development",
+      "title": "Building Scalable Web Applications with Python: Django and Flask"
+    },
+    {
+      "author": "David L. Miller",
+      "source": "https://www.amazon.com/s?k=Python+REST+API+Microservices+Web+Development",
+      "title": "Advanced Web Development with Python: REST APIs and Microservices"
+    }
+  ],
+  "YouTubeReferences": [
+    {
+      "channel": "Programming with Mosh",
+      "description": "A fast-paced introduction to the Flask framework for building web applications in Python. Covers setting up a project, creating routes, rendering templates, and handling form data.",
+      "duration": 60,
+      "level": "Beginner",
+      "title": "Python Web Development: Flask Framework Crash Course",
+      "url": "https://www.youtube.com/results?search_query=Python+Flask+Framework+Crash+Course"
+    },
+    {
+      "channel": "freeCodeCamp.org",
+      "description": "A comprehensive tutorial covering the Django framework, including models, views, templates, URL routing, and database integration. Builds a complete web application from scratch.",
+      "duration": 180,
+      "level": "Beginner",
+      "title": "Django Tutorial for Beginners | Full Course",
+      "url": "https://www.youtube.com/results?search_query=Django+Tutorial+for+Beginners+Full+Course"
+    },
+    {
+      "channel": null,
+      "description": "Learn how to build RESTful APIs using Python and the Flask framework. Covers request handling, data serialization (JSON), authentication, and API design principles.",
+      "duration": 90,
+      "level": "Intermediate",
+      "title": "REST APIs with Python and Flask: A Practical Guide",
+      "url": "https://www.youtube.com/results?search_query=REST+APIs+Python+Flask+Practical+Guide"
+    },
+    {
+      "channel": null,
+      "description": "An introduction to asynchronous programming in Python for web development. Covers the asyncio library and the aiohttp framework for building high-performance web applications.",
+      "duration": 75,
+      "level": "Intermediate",
+      "title": "Asynchronous Web Development with Python: Asyncio and Aiohttp",
+      "url": "https://www.youtube.com/results?search_query=Asynchronous+Web+Development+Python+Asyncio+Aiohttp"
+    },
+    {
+      "channel": null,
+      "description": "Learn how to extract data from websites using Python libraries like Beautiful Soup and Scrapy. Covers parsing HTML, handling pagination, and storing scraped data.",
+      "duration": 120,
+      "level": "Intermediate",
+      "title": "Web Scraping with Python: Beautiful Soup and Scrapy",
+      "url": "https://www.youtube.com/results?search_query=Web+Scraping+Python+Beautiful+Soup+Scrapy"
+    },
+    {
+      "channel": null,
+      "description": "Covers advanced Django topics such as caching, database optimization, deployment strategies, and using Celery for asynchronous tasks to build scalable web applications.",
+      "duration": 150,
+      "level": "Advanced",
+      "title": "Advanced Django: Building Scalable Web Applications",
+      "url": "https://www.youtube.com/results?search_query=Advanced+Django+Building+Scalable+Web+Applications"
+    }
+  ],
+  "assessments": [
+    {
+      "description": "Test your knowledge of HTML and CSS fundamentals.",
+      "title": "HTML/CSS Quiz",
+      "type": "quiz"
+    },
+    {
+      "description": "Test your knowledge of Flask framework.",
+      "title": "Flask Quiz",
+      "type": "quiz"
+    },
+    {
+      "description": "Test your knowledge of Django framework.",
+      "title": "Django Quiz",
+      "type": "quiz"
+    },
+    {
+      "description": "Build a simple web application using Flask.",
+      "title": "Simple Flask App",
+      "type": "project"
+    }
+  ],
+  "created_with_ai": true,
+  "difficulty_level": "beginner",
+  "domain": "Programming",
+  "estimated_hours": 25,
+  "features": [
+    "AI-Generated Content",
+    "Video Resources",
+    "Interactive Assessments",
+    "Hands-on Projects",
+    "Progress Tracking"
+  ],
+  "learning_objectives": [
+    "Understand the fundamentals of web development.",
+    "Build web applications using Flask and Django.",
+    "Interact with databases using Python.",
+    "Create REST APIs.",
+    "Deploy web applications."
+  ],
+  "modules": [
+    {
+      "day": 1,
+      "duration_minutes": 60,
+      "objectives": [
+        "Understand the basics of web development.",
+        "Set up a Python development environment.",
+        "Learn about HTTP requests and responses."
+      ],
+      "title": "Introduction to Web Development & Python"
+    },
+    {
+      "day": 1,
+      "duration_minutes": 60,
+      "objectives": [
+        "Learn the basic HTML tags and structure.",
+        "Create simple HTML pages.",
+        "Understand HTML forms."
+      ],
+      "title": "HTML Fundamentals"
+    },
+    {
+      "day": 1,
+      "duration_minutes": 60,
+      "objectives": [
+        "Learn the basics of CSS styling.",
+        "Apply CSS to HTML elements.",
+        "Understand CSS selectors and properties."
+      ],
+      "title": "CSS Fundamentals"
+    },
+    {
+      "day": 2,
+      "duration_minutes": 60,
+      "objectives": [
+        "Understand the Flask framework.",
+        "Create a simple Flask application.",
+        "Learn about routes and views."
+      ],
+      "title": "Introduction to Flask"
+    },
+    {
+      "day": 2,
+      "duration_minutes": 60,
+      "objectives": [
+        "Use Jinja2 templates in Flask.",
+        "Create and handle HTML forms in Flask.",
+        "Learn about form validation."
+      ],
+      "title": "Flask Templates and Forms"
+    },
+    {
+      "day": 2,
+      "duration_minutes": 60,
+      "objectives": [
+        "Connect to a database using Flask.",
+        "Perform CRUD operations (Create, Read, Update, Delete).",
+        "Use SQLAlchemy ORM."
+      ],
+      "title": "Flask and Databases"
+    },
+    {
+      "day": 3,
+      "duration_minutes": 60,
+      "objectives": [
+        "Understand the Django framework.",
+        "Create a Django project and app.",
+        "Learn about models, views, and templates."
+      ],
+      "title": "Introduction to Django"
+    },
+    {
+      "day": 3,
+      "duration_minutes": 60,
+      "objectives": [
+        "Define models in Django.",
+        "Create and apply migrations.",
+        "Understand Django's ORM."
+      ],
+      "title": "Django Models and Migrations"
+    },
+    {
+      "day": 3,
+      "duration_minutes": 60,
+      "objectives": [
+        "Create views in Django.",
+        "Use Django's template engine.",
+        "Pass data from views to templates."
+      ],
+      "title": "Django Views and Templates"
+    },
+    {
+      "day": 4,
+      "duration_minutes": 60,
+      "objectives": [
+        "Create and use Django forms.",
+        "Handle form submissions.",
+        "Implement form validation."
+      ],
+      "title": "Django Forms"
+    },
+    {
+      "day": 4,
+      "duration_minutes": 60,
+      "objectives": [
+        "Understand the Django admin interface.",
+        "Customize the admin interface.",
+        "Use the admin interface to manage data."
+      ],
+      "title": "Django Admin Interface"
+    },
+    {
+      "day": 4,
+      "duration_minutes": 60,
+      "objectives": [
+        "Understand REST API principles.",
+        "Create REST APIs using Flask.",
+        "Use Flask-RESTful extension."
+      ],
+      "title": "REST APIs with Flask"
+    },
+    {
+      "day": 5,
+      "duration_minutes": 60,
+      "objectives": [
+        "Understand Django REST Framework.",
+        "Create REST APIs using Django REST Framework.",
+        "Use serializers and viewsets."
+      ],
+      "title": "REST APIs with Django REST Framework"
+    },
+    {
+      "day": 5,
+      "duration_minutes": 60,
+      "objectives": [
+        "Implement user authentication in Flask and Django.",
+        "Implement authorization using permissions and roles.",
+        "Secure your web applications."
+      ],
+      "title": "Authentication and Authorization"
+    },
+    {
+      "day": 5,
+      "duration_minutes": 60,
+      "objectives": [
+        "Deploy Flask and Django applications to a cloud platform (e.g., Heroku, AWS).",
+        "Configure a web server (e.g., Gunicorn, Nginx).",
+        "Understand deployment best practices."
+      ],
+      "title": "Deployment"
+    }
+  ],
+  "name": "Web Development with Python",
+  "numberofdays": 5,
+  "prerequisites": [
+    "Basic computer literacy",
+    "Internet access",
+    "Motivation to learn",
+    "Basic understanding of computers",
+    "Logical thinking skills"
+  ],
+  "projects": [
+    {
+      "description": "Create a simple Flask application that displays a list of items and allows users to add new items.",
+      "estimated_hours": 3,
+      "title": "Simple Flask App"
+    },
+    {
+      "description": "Create a simple blog application using Django with basic CRUD functionality for posts.",
+      "estimated_hours": 5,
+      "title": "Simple Django Blog"
+    },
+    {
+      "description": "Create a REST API using Flask that allows users to manage a list of resources (e.g., books, movies).",
+      "estimated_hours": 4,
+      "title": "REST API with Flask"
+    },
+    {
+      "description": "Create a REST API using Django REST Framework that allows users to manage a list of resources (e.g., products, users).",
+      "estimated_hours": 6,
+      "title": "REST API with Django REST Framework"
+    }
+  ],
+  "subtopics": [
+    "Flask",
+    "Django",
+    "HTML",
+    "CSS",
+    "Databases",
+    "REST APIs"
+  ],
+  "tags": [
+    "coding",
+    "development",
+    "software",
+    "programming",
+    "generate a comprehensive course outline for: web dev in python"
+  ],
+  "target_audience": [
+    "Aspiring developers",
+    "Students",
+    "Career changers",
+    "Professionals"
+  ],
+  "topic": "Generate a comprehensive course outline for: WEB DEV IN PYTHON",
+  "version": "2.0",
+  "id": "1750526560241",
+  "success": true,
+  "message": "Course generated successfully using AI server (undici)",
+  "saved_to_database": false,
+  "using_ai": true,
+  "using_fallback": false,
+  "ai_server_url": "http://127.0.0.1:6000",
+  "user_id": "demo-user",
+  "stored_at": "2025-06-21T17:22:41.463Z",
+  "storage_method": "file_fallback",
+  "file_path": "D:\\Studentfolio\\data\\courses\\course_1750526560241_demo-user.json"
+}
