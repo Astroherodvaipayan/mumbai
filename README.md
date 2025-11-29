@@ -1,239 +1,261 @@
-for adk code check out the @adk branch 
+# 💼 Portfolio Manager
 
-# 🎓 AI Learning Assistant
+> **Your Complete Financial Command Center**
 
-A powerful voice-enabled AI assistant that helps you learn by analyzing what's on your screen and providing contextual guidance through natural conversation.
-
-## ✨ Features
-
-- 🎤 **Voice Interaction**: Talk naturally with your AI learning assistant
-- 👀 **Screen Analysis**: AI can see and understand what you're viewing (including iframes, videos, documents)
-- 🗣️ **Natural Speech**: Responses are spoken using high-quality text-to-speech
-- 📚 **Educational Focus**: Specialized prompts for learning assistance and step-by-step guidance
-- 🌐 **Web Integration**: Seamlessly integrates with your learning platform
-- 📝 **Conversation History**: Keep track of your learning conversations
-- 🚀 **Real-time Processing**: Fast response times for interactive learning
-
-## 🔧 Technical Stack
-
-- **Speech-to-Text**: Sarvam AI (primary) + Groq Whisper (fallback)
-- **Text-to-Speech**: Sarvam AI with natural voice synthesis
-- **LLM**: Groq with Llama 4 Scout model for educational responses
-- **Screen Capture**: Enhanced screenshot analysis for iframe content
-- **Backend**: Flask with CORS support for frontend integration
-- **Audio Processing**: PyAudio + WebRTC VAD for voice activity detection
-
-## 🚀 Quick Setup
-
-### 1. Prerequisites
-
-- Python 3.8 or higher
-- macOS, Linux, or Windows
-- Microphone and speakers/headphones
-
-### 2. System Dependencies
-
-**macOS:**
-```bash
-brew install portaudio
-```
-
-**Linux (Ubuntu/Debian):**
-```bash
-sudo apt-get install portaudio19-dev python3-pyaudio
-```
-
-**Windows:**
-No additional system dependencies required.
-
-### 3. Automated Setup
-
-Run the setup script to install everything automatically:
-
-```bash
-cd ai-server
-python setup.py
-```
-
-### 4. Manual Setup
-
-If you prefer manual setup:
-
-```bash
-# Install Python dependencies
-pip install -r requirements.txt
-
-# Create environment file
-cp .env.example .env
-```
-
-### 5. Configure API Keys
-
-Edit the `.env` file with your API keys:
-
-```env
-# Get your Groq API key from: https://console.groq.com/keys
-GROQ_API_KEY=your_groq_api_key_here
-
-# Get your Sarvam API key from: https://www.sarvam.ai/
-SARVAM_API_KEY=your_sarvam_api_key_here
-```
-
-## 🎯 Getting Your API Keys
-
-### Groq API Key
-1. Visit [Groq Console](https://console.groq.com/keys)
-2. Sign up or log in
-3. Create a new API key
-4. Copy the key to your `.env` file
-
-### Sarvam API Key
-1. Visit [Sarvam AI](https://www.sarvam.ai/)
-2. Sign up for an account
-3. Generate an API key
-4. Copy the key to your `.env` file
-
-## 🏃‍♂️ Running the Assistant
-
-### Start the AI Backend
-
-```bash
-cd ai-server
-python voice.py
-```
-
-You should see:
-```
-🚀 Starting AI Learning Assistant...
-🌐 Web server at http://localhost:5000
-🎓 AI Learning Assistant is listening...
-📱 Web interface available at http://localhost:5000
-🔊 Using Sarvam for speech-to-text and text-to-speech conversion.
-```
-
-### Start Your Learning Platform
-
-```bash
-# In the main project directory
-npm run dev
-```
-
-Navigate to the practice page at `http://localhost:3000/practice`
-
-## 🎮 How to Use
-
-### 1. Voice Interaction
-
-1. **Open the Practice Page**: Navigate to `/practice` in your learning app
-2. **Check Connection**: Ensure the AI Assistant shows "Connected" status
-3. **Start Conversation**: Click the microphone button or "Start Conversation"
-4. **Ask Questions**: Speak naturally about what you're learning
-5. **Listen to Responses**: The AI will respond with spoken explanations
-
-### 2. Example Interactions
-
-**Watching Educational Videos:**
-- "What is this video about?"
-- "Can you explain this concept in simpler terms?"
-- "What should I focus on in this lesson?"
-
-**Taking Notes:**
-- "Help me understand this topic"
-- "What are the key points I should remember?"
-- "Can you quiz me on this material?"
-
-**Working on Code:**
-- "What does this code do?"
-- "How can I improve this function?"
-- "Explain this error message"
-
-### 3. Advanced Features
-
-- **Screen Analysis**: The AI can see your entire screen, including iframe content
-- **Context Awareness**: Responses are tailored to what you're currently viewing
-- **Learning Mode**: Provides hints rather than direct answers to encourage learning
-- **Multi-modal**: Combines visual and audio understanding
-
-## 🛠️ Troubleshooting
-
-### Common Issues
-
-**"Voice backend is not connected"**
-- Ensure the Python server is running on port 5000
-- Check that your `.env` file has valid API keys
-- Restart the voice.py server
-
-**No audio playback**
-- Check your browser's audio permissions
-- Ensure speakers/headphones are connected
-- Try refreshing the page
-
-**PyAudio installation fails**
-- macOS: `brew install portaudio`
-- Linux: `sudo apt-get install portaudio19-dev`
-- Windows: Try `pip install pipwin && pipwin install pyaudio`
-
-**Poor voice recognition**
-- Ensure you have a good microphone
-- Speak clearly and at normal volume
-- Check for background noise
-
-### Debug Mode
-
-To see detailed logs, check the `logs/` directory:
-- `input_YYYY-MM-DD.log`: Voice transcriptions
-- `output_YYYY-MM-DD.log`: AI responses
-- `origin_YYYY-MM-DD.log`: Processing details
-
-## 🏗️ Architecture
-
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│  Frontend       │    │  Flask Backend  │    │  AI Services    │
-│  (React/Next)   │◄──►│  (voice.py)     │◄──►│  (Groq/Sarvam)  │
-│                 │    │                 │    │                 │
-│  • Practice UI  │    │  • Voice I/O    │    │  • LLM          │
-│  • Audio Player │    │  • Screenshot   │    │  • STT/TTS      │
-│  • Conversation │    │  • CORS API     │    │  • Vision       │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
-
-## 🔒 Privacy & Security
-
-- **Local Processing**: Voice processing happens on your machine
-- **Screen Capture**: Screenshots are processed temporarily and not stored
-- **API Security**: Your API keys remain in your local environment
-- **No Data Storage**: Conversations are kept in memory only
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
-## 🆘 Support
-
-If you encounter issues:
-
-1. Check the troubleshooting section above
-2. Review the logs in the `logs/` directory
-3. Ensure all API keys are correctly configured
-4. Try restarting both the frontend and backend
-
-## 🎉 What's Next?
-
-- **Multi-language Support**: Support for multiple languages
-- **Custom Voice Models**: Ability to choose different voice personalities
-- **Enhanced Screen Analysis**: Better understanding of complex content
-- **Learning Analytics**: Track your learning progress over time
-- **Collaborative Learning**: Share sessions with other learners
+A modern, intelligent portfolio management platform designed for Indian investors. Track your investments, analyze performance, plan your financial goals, and get AI-powered investment advice—all in one beautiful, intuitive interface.
 
 ---
 
-Happy Learning! 🚀📚 
+## 🌟 Overview
+
+Portfolio Manager is a comprehensive financial management solution that brings together portfolio tracking, performance analytics, goal planning, and AI-powered investment advisory. Built specifically for the Indian market with support for NSE, BSE, and real-time Zerodha integration.
+
+Whether you're managing equity stocks, mutual funds, fixed deposits, or planning for retirement, Portfolio Manager gives you the tools and insights you need to make informed financial decisions.
+
+---
+
+## ✨ Key Features
+
+### 📊 **Portfolio Dashboard**
+- **Real-time Net Worth Tracking**: See your total portfolio value at a glance
+- **Multi-Account Management**: Track equity, mutual funds, FDs, PPF, EPF, gold, and crypto
+- **Performance Metrics**: Monitor gains, losses, and growth percentages across all accounts
+- **Interactive Charts**: Visualize your portfolio performance over customizable time periods (1W, 1M, 3M, 6M, YTD, 1Y, 5Y, ALL)
+- **Goal Tracking**: Set and monitor progress toward financial goals with visual progress bars
+
+### 📈 **Performance Analytics**
+- **Top 5 Performance Indicators**:
+  - **Sharpe Ratio**: Risk-adjusted return measure
+  - **Total Return**: Overall portfolio performance
+  - **Annualized Return**: Year-over-year growth projection
+  - **Volatility**: Risk assessment through standard deviation
+  - **Max Drawdown**: Largest peak-to-trough decline analysis
+
+- **6 Technical Indicators**:
+  - **MACD**: Moving Average Convergence Divergence for trend analysis
+  - **RSI**: Relative Strength Index for overbought/oversold signals
+  - **Bollinger Bands**: Price volatility and momentum indicators
+  - **Moving Averages**: 50/200-day MA with golden cross detection
+  - **Beta**: Market correlation and volatility measurement
+  - **Volume Trends**: Trading volume analysis
+
+- **Benchmark Comparison**: Compare your portfolio against Nifty 50 and BSE Sensex
+- **Dynamic Time Range Analysis**: Switch between different time periods with smooth animated transitions
+
+### 💰 **Holdings Management**
+- **Live Zerodha Sync**: Real-time synchronization with Zerodha trading platform
+- **Comprehensive Holdings Table**: View all your positions with detailed metrics
+- **Search & Filter**: Quickly find specific holdings
+- **Daily/Total View**: Toggle between daily changes and total gain/loss
+- **Sortable Columns**: Sort by position size, value, or performance
+- **Indian Stock Focus**: Pre-configured with top Indian stocks (RELIANCE, TCS, INFY, HDFCBANK, etc.)
+
+### 🎯 **Goal Planning**
+- **Multiple Goal Types**: Emergency fund, home downpayment, car purchase, retirement, and more
+- **Progress Tracking**: Visual progress bars showing completion percentage
+- **Target vs Current**: Monitor how close you are to achieving each goal
+- **Add/Delete Goals**: Flexible goal management
+
+### 🤖 **AI Investment Advisor (FinAI)**
+- **Conversational Interface**: Chat naturally with your AI investment advisor
+- **SIP Planning**: Get personalized Systematic Investment Plan recommendations
+- **Goal-Based Planning**: AI helps you plan for retirement, house, education, and other goals
+- **Multi-language Support**: English, Hindi, and Marathi
+- **Risk Assessment**: Get recommendations based on your risk tolerance
+- **Debt Strategy**: Avalanche vs Snowball method analysis
+- **Tax Optimization**: ELSS and Section 80C suggestions
+- **Insurance Gap Analysis**: Identify coverage gaps in term and health insurance
+
+### 🔄 **Data Management**
+- **Add/Delete Accounts**: Easily manage your investment accounts
+- **Real-time Updates**: Automatic recalculation of net worth and performance
+- **Local Data Storage**: All your financial data stays on your device
+- **Export Capabilities**: Export your portfolio data for external analysis
+
+### 🎨 **User Experience**
+- **Modern UI**: Beautiful, responsive design with dark mode support
+- **Smooth Animations**: Polished transitions and interactions
+- **Collapsible Sidebar**: Clean navigation with collapsible menu
+- **Mobile Responsive**: Works seamlessly on all device sizes
+- **Intuitive Navigation**: Easy access to all features from the sidebar
+
+---
+
+## 🏗️ Architecture
+
+### Frontend
+- **Framework**: Next.js 14+ with App Router
+- **UI Library**: React with TypeScript
+- **Styling**: Tailwind CSS with custom design system
+- **Animations**: Framer Motion for smooth transitions
+- **State Management**: React Hooks (useState, useEffect)
+- **Icons**: Lucide React
+
+### Backend Services
+- **Portfolio API**: Next.js API routes for portfolio data
+- **Stock Data**: Alpha Vantage API integration for real-time quotes
+- **FinAI Service**: FastAPI backend for investment advisory
+- **Voice AI**: Flask-based voice assistant for screen analysis
+
+### Data Sources
+- **Stock Prices**: Alpha Vantage API (Indian stocks)
+- **Trading Platform**: Zerodha integration for live sync
+- **Benchmarks**: NSE Nifty 50 and BSE Sensex
+
+---
+
+## 🛠️ Technology Stack
+
+### Core Technologies
+- **Next.js**: React framework for production
+- **TypeScript**: Type-safe development
+- **Tailwind CSS**: Utility-first CSS framework
+- **Framer Motion**: Animation library
+- **React Hook Form**: Form management
+
+### Financial Data
+- **Alpha Vantage**: Real-time stock quotes and market data
+- **Indian Market Focus**: NSE and BSE index tracking
+
+### AI & Analytics
+- **FinAI**: Custom investment advisory engine
+- **Google Gemini**: LLM for conversational AI
+- **Technical Analysis**: Built-in indicators and calculations
+
+### Integration
+- **Zerodha API**: Live portfolio synchronization
+- **Google Sheets**: Data export and analysis
+- **Screen Capture**: AI-powered screen analysis
+
+---
+
+## 📱 Key Pages
+
+### Dashboard (`/dashboard/portfolio`)
+- Overview of net worth, accounts, and saving goals
+- Interactive performance graph with multiple time ranges
+- Quick access to all portfolio features
+
+### Holdings (`/dashboard/holdings`)
+- Complete holdings table with all positions
+- Live Zerodha sync status
+- Search, filter, and sort capabilities
+- Daily and total performance views
+
+### Performance (`/dashboard/performance`)
+- Comprehensive performance metrics
+- Technical indicators dashboard
+- Benchmark comparison charts
+- Time range analysis
+
+### AI Assistant (`/practice`)
+- FinAI chat interface for investment advice
+- Google Search integration
+- Google Sheets integration
+- Voice-enabled screen analysis
+
+---
+
+## 🎯 Use Cases
+
+### For Individual Investors
+- Track all investments in one place
+- Monitor portfolio performance against benchmarks
+- Get AI-powered investment recommendations
+- Plan and track financial goals
+- Analyze technical indicators for trading decisions
+
+### For Financial Planning
+- Set multiple financial goals
+- Calculate required SIP amounts for goals
+- Analyze debt payoff strategies
+- Optimize tax-saving investments
+- Assess insurance coverage gaps
+
+### For Active Traders
+- Real-time Zerodha portfolio sync
+- Technical indicator analysis
+- Performance benchmarking
+- Holdings tracking and management
+
+---
+
+## 🔐 Privacy & Security
+
+- **Local-First**: All data stored locally on your device
+- **No Cloud Dependency**: Your financial data never leaves your machine
+- **Secure API Integration**: Encrypted connections to external services
+- **Privacy-Focused**: No tracking, no analytics, no data collection
+
+---
+
+## 🌍 Multi-Currency Support
+
+While optimized for the Indian market (INR), the platform supports:
+- **Primary Currency**: Indian Rupee (₹)
+- **Real-time Exchange Rates**: For multi-currency portfolios
+- **Localized Formatting**: Indian number formatting (lakhs, crores)
+
+---
+
+## 📊 Data Visualization
+
+- **Interactive Charts**: SVG-based performance graphs
+- **Smooth Animations**: Framer Motion powered transitions
+- **Responsive Design**: Adapts to different screen sizes
+- **Dark Mode**: Eye-friendly dark theme option
+- **Color-Coded Metrics**: Green for gains, red for losses
+
+---
+
+## 🚀 Performance
+
+- **Fast Load Times**: Optimized Next.js build
+- **Real-time Updates**: Instant recalculation on data changes
+- **Smooth Animations**: 60fps transitions
+- **Efficient Rendering**: React optimization and code splitting
+
+---
+
+## 🎨 Design Philosophy
+
+Portfolio Manager is built with a focus on:
+- **Simplicity**: Clean, uncluttered interface
+- **Clarity**: Easy-to-understand metrics and visualizations
+- **Efficiency**: Quick access to all features
+- **Beauty**: Modern, polished design
+- **Accessibility**: Works for users of all technical levels
+
+---
+
+## 🔮 Future Enhancements
+
+- **Advanced Analytics**: More sophisticated portfolio analysis
+- **Tax Reporting**: Automated tax calculation and reporting
+- **Multi-Portfolio Support**: Manage multiple portfolios
+- **Mobile App**: Native iOS and Android applications
+- **Collaborative Features**: Share portfolios with advisors
+- **Automated Rebalancing**: AI-powered portfolio rebalancing suggestions
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🙏 Acknowledgments
+
+Built with ❤️ for the Indian investing community.
+
+**Powered by:**
+- Next.js
+- Alpha Vantage
+- Zerodha
+- Google Gemini
+- FinAI
+
+---
+
+*Take control of your financial future with Portfolio Manager.*
